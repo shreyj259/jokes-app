@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.card-container{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.reshuffle-container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.reshuffle-container button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color:#ED254E ;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px rgba(00,00, 00, 0.16);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.reshuffle-container button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 20px 20px 30px rgba(00,00, 00, 0.16);
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
